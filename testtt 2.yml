@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: ""
+  url: test?mama=
+  params:
+    - name: mama
+      value: ""
+      type: query
   auth: inherit
 
 settings:
