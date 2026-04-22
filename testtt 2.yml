@@ -4,18 +4,8 @@ info:
   seq: 3
 
 http:
-  method: POST
-  url: http://mledldledmlemd.ndflle?who=maahaa
-  params:
-    - name: who
-      value: maahaa
-      type: query
-  body:
-    type: json
-    data: |-
-      {
-        "data": true
-      }
+  method: GET
+  url: ""
   auth: inherit
 
 settings:
